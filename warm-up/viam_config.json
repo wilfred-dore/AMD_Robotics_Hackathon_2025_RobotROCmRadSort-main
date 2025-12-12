@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "name": "arm-leader",
+      "api": "rdk:component:arm",
+      "model": "devrel:so101:arm",
+      "attributes": {
+        "port": "/dev/tty.usbmodem5AE60574401",
+        "role": "leader"
+      },
+      "frame": {
+        "parent": "world",
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "orientation": {
+          "type": "euler_angles",
+          "value": {
+            "roll": 0,
+            "pitch": 0,
+            "yaw": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "arm-follower",
+      "api": "rdk:component:arm",
+      "model": "devrel:so101:arm",
+      "attributes": {
+        "port": "/dev/tty.usbmodem5AE60812911",
+        "role": "follower"
+      },
+      "frame": {
+        "parent": "world",
+        "translation": {
+          "x": 300,
+          "y": 0,
+          "z": 0
+        },
+        "orientation": {
+          "type": "euler_angles",
+          "value": {
+            "roll": 0,
+            "pitch": 0,
+            "yaw": 0
+          }
+        }
+      }
+    }
+  ],
+  "modules": [
+    {
+      "type": "registry",
+      "name": "devrel_so101-arm",
+      "module_id": "devrel:so101-arm",
+      "version": "latest"
+    }
+  ]
+}
