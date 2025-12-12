@@ -3,7 +3,9 @@
 ## Team Information
 
 **Team:** Robot ROCm
+
 **Project:** RadSort
+
 **Members:** Wilfred Doré, Gowshigan Selladurai, Yohann Sidot
 
 **Summary:** RadSort is an AI-powered robotic system that autonomously classifies and sorts nuclear-contaminated objects by radiation levels using computer vision and imitation learning. The robot uses UV-reactive markers to identify contamination intensity (Safe/Low/Medium/High) and sorts objects into appropriate bins, eliminating human radiation exposure during nuclear facility decommissioning.
